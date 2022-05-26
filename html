@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Guide To Redstone - Pages 1-10</title>
+</head>
+<body>
+<script>
+  one = '1oz-XrXt590eC68SP3HuIhS8eMej8eNLp';
+  two = '1yciDy3j13Cq4aSwd72cvVfxE7CE-WD7W';
+  three = '1KEhW0kI_bV_p9Z2ksO6AWVmmQgynP67V';
+  four = '1XABt0mCX8WqfcjJFpcQ6yhGMNfDsFwsH';
+  five = '1Qs-sKFPpraQYS-zzsfmrNYU01tpI9ILn';
+  six = '1DBNSzzPOxAAoPqe8olVnrkmKF6OtQCML';
+  seven = '1DBNSzzPOxAAoPqe8olVnrkmKF6OtQCML';
+  eight = '1DBNSzzPOxAAoPqe8olVnrkmKF6OtQCML';
+  nine = '1pwv4j6zU8QNEfTfxEtlEE0sHaZ74GlyQ';
+  ten = '179tD-X7qF-EvReP12WO7JsYBm8ns67j3';
+  eleven = '12kgOQniniAvLIgqaXKQLZ-CTE3uIGac7';
+  twelve = '1YgpaP28S4uK2LTvXRsHhtK7vniETjESx';
+  thirteen = '1Kyi7uxmYMEA_THrHJmC3BIVqKmkPTGvM';
+  fourteen = '1QVHZBkTdmsCTUdsvp7PJFrMDUU2w5UTt';
+  fifteen = '1ftdhtnDcxRwPmblkAkMUOs1S1JhVVx83';
+  sixteen = '1na7LsJrMses13uKSuNrEyvc72JyHOGGa';
+  seventeen = '1mIS3kl1iHXAcq47P93Q0wwuQY0D2UnPn';
+  eighteen = '1hbETYrdNRVpDF-zkytSJWiMINz0ZwK-e';
+  nineteen = '1hYt62R8M6XxLRL-NkzHsov54KgMq5CAt';
+  twenty = '1VjAoTafU0zeYUpHtO3GztYjTp30QLQo3';
+  function nextPage() {
+    if (document.getElementById('p').innerHTML == 'one') {
+      document.getElementById('p').innerHTML = 'two';
+      document.getElementById('img').innerHTML = `<img id='img1' src='https://drive.google.com/uc?id=${two}'>`
+      console.log('Page 2')
+    }
+    else if (document.getElementById('p').innerHTML == 'two') {
+      document.getElementById('p').innerHTML = 'three';
+      document.getElementById('img').innerHTML = `<img id='img1' src='https://drive.google.com/uc?id=${three}'>`
+      console.log('Page 3')
+    }
+    else if (document.getElementById('p').innerHTML == 'three') {
+      document.getElementById('p').innerHTML = 'four';
+      document.getElementById('img').innerHTML = `<img id='img1' src='https://drive.google.com/uc?id=${four}'>`
+      console.log('Page 4')
+    }
+    else if (document.getElementById('p').innerHTML == 'four') {
+      document.getElementById('p').innerHTML = 'five';
+      document.getElementById('img').innerHTML = `<img id='img1' src='https://drive.google.com/uc?id=${five}'>`
+      console.log('Page 5')
+    }
+    else if (document.getElementById('p').innerHTML == 'five') {
+      document.getElementById('p').innerHTML = 'six';
+      document.getElementById('img').innerHTML = `<img id='img1' src='https://drive.google.com/uc?id=${six}'>`
+      console.log('Page 6')
+    }
+    else if (document.getElementById('p').innerHTML == 'six') {
+      document.getElementById('p').innerHTML = 'seven';
+      document.getElementById('img').innerHTML = `<img id='img1' src='https://drive.google.com/uc?id=${seven}'>`
+      console.log('Page 7')
+    }
+    else if (document.getElementById('p').innerHTML == 'seven') {
+      document.getElementById('p').innerHTML = 'six';
+      document.getElementById('img').innerHTML = `<img id='img1' src='https://drive.google.com/uc?id=${eight}'>`
+      console.log('Page 8')
+    }
+    else if (document.getElementById('p').innerHTML == 'eight') {
+      document.getElementById('p').innerHTML = 'nine';
+      document.getElementById('img').innerHTML = `<img id='img1' src='https://drive.google.com/uc?id=${nine}'>`
+      console.log('Page 9')
+    }
+    else if (document.getElementById('p').innerHTML == 'nine') {
+      document.getElementById('p').innerHTML = 'ten';
+      document.getElementById('img').innerHTML = `<img id='img1' src='https://drive.google.com/uc?id=${ten}'>`
+      console.log('Page 10')
+    }
+    else if (document.getElementById('p').innerHTML == 'ten') {
+      alert('Pg. 10!')
+    }
+  }
+</script>
+<div id='img'>
+<img id='img1' src='https://drive.google.com/uc?id=1oz-XrXt590eC68SP3HuIhS8eMej8eNLp'>
+</div>
+<br>
+<button id='nextpage' onclick='nextPage();'>Next page</button>
+<p id='p'>one</p>
+</body>
+</html>
